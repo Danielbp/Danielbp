@@ -1,0 +1,305 @@
+$font-stack: "Karla", sans-serif;
+$primary-color: #6fff30;
+$font-color: black;
+
+body {
+  height: 900px;
+  width: 100%;
+  max-width: 1920px;
+  font-family:$font-stack;
+  color: $font-color;
+  overflow: hidden;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  background-image: url("../img/whitenoise-361x370.png");
+  background-repeat: repeat;
+
+}
+
+
+.nav {
+
+  list-style: none;
+  margin: auto;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  color: $font-color;
+  width: 100%;
+  height: 50px;
+
+
+  a{
+    text-decoration: none;
+    display: flex;
+    padding: 1.5em;
+    margin: auto;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  ul{
+    margin: auto;
+    margin-left: 100px;
+    padding: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+    li{
+      margin-right: 10px;
+      border-radius: 51px 51px 51px 51px;
+
+    }
+  }
+
+}
+
+.navr {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  width: 150px;
+  height: 80px;
+
+  li{
+    #d {
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
+
+.wrap {
+
+  background-image: url("../img/bwrap2.jpg");
+  margin-top: 4%;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.squish {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin:80px;
+  margin-top: 0px;
+}
+
+.wrapban {
+  background-image: url("../img/whitenoise-361x370.png");
+  height: 15%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-grow: 1;
+
+  .smicons {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+  }
+}
+
+.card {
+
+  position:relative;
+  width:400px;
+  height:300px;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: auto;
+  flex-direction: row;
+  text-align: center;
+
+  div {
+    position:absolute;
+    top:0;
+    left:0;
+    -webkit-transition: opacity 1.5s ease;
+    transition: opacity 1.5s ease;
+  }
+
+  &:hover .card_front{
+    opacity:0;
+  }
+
+}
+
+.card2 {
+  position:relative;
+  width:800px;
+  height:300px;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-shrink: 2;
+  flex-grow: 2;
+  flex-basis: auto;
+  flex-direction: row;
+  text-align: center;
+
+  div {
+    position:absolute;
+    top:0;
+    left:0;
+    -webkit-transition: opacity 1.5s ease;
+    transition: opacity 1.5s ease;
+  }
+
+  &:hover .card_front{
+    opacity:0;
+  }
+}
+
+.card3 {
+  position:relative;
+  width:600px;
+  height:300px;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-shrink: 3;
+  flex-grow: 3;
+  flex-basis: auto;
+  flex-direction: row;
+  text-align: center;
+
+  div {
+    position:absolute;
+    top:0;
+    left:0;
+    -webkit-transition: opacity 1.5s ease;
+    transition: opacity 1.5s ease;
+  }
+
+  &:hover .card_front{
+    opacity:0;
+  }
+}
+
+.logo {
+  width: 148px;
+  height: 81px;
+}
+
+
+.card_al {
+
+  position:relative;
+  width:auto;
+  margin: 10px;
+  padding: 50px;
+  height: 600px;
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: auto;
+  background-color: #ffffff;
+  opacity: 0.9;
+  justify-content: flex-start;
+  text-align: start;
+  letter-spacing: 1px;
+
+  h1{
+    font-size: 4em;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+
+}
+
+.card_back {
+
+  background: #f8f8f8;
+  width:100%;
+  height:100%;
+  display: flex;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#blue {
+  background: #4183d7;
+}
+
+#green {
+  background: #87d37c;
+}
+
+#red {
+  background: #d24d57;
+}
+
+#purple {
+  background: #913d88;
+}
+
+#orange {
+  background: #f89406;
+}
+
+.card_front {
+  background: #ffffff;
+  width:100%;
+  height:100%;
+  display: flex;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.bar {
+  display: inline-flex;
+  overflow: hidden;
+  width: 1px;
+  height: 100px;
+  background: #000000;
+  line-height: 999px;
+  vertical-align: top;
+}
+
+
+
+
+
+@media (max-width : 1136px) and (max-width: 1024px)  {
+
+  .wrap {
+    background-image: none;
+  }
+
+  .squish {
+    margin:auto;
+    margin-top: 0px;
+  }
+
+  body {
+
+    background-color: #ffffff;
+  }
+
+
+}
