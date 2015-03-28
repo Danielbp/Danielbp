@@ -1,14 +1,12 @@
 <?php
 session_start();
-$pageTitle = "contact";
-$pageId = "contact";
 
 //init variables
 $name = $email = $subject = $message = "" ;
 $msg = $error = "";
 
 //Handle submit
-if (isset($_POST["submit"])) {
+if (isset($_POST["send"])) {
 
     //trim space from user input.
     $name	   = trim($_POST["name"]);
