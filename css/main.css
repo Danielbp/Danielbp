@@ -1,0 +1,112 @@
+html {
+  font-size: 1em;
+  line-height: 1.6em; }
+
+body {
+  background: white;
+  font-family: 'Exo', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  display: block; }
+
+aside, footer, header, main, nav, section {
+  display: block; }
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%; }
+  header nav {
+    width: 100%;
+    display: inline-block;
+    height: 34px;
+    margin: 40px 0; }
+    header nav #me {
+      margin-top: 150px;
+      position: relative;
+      color: white; }
+    header nav ul {
+      margin: 0;
+      padding: 0; }
+      header nav ul li {
+        list-style: none;
+        display: inline; }
+        header nav ul li a {
+          margin-left: 40px;
+          color: white;
+          font-size: 20px;
+          display: inline-block;
+          box-sizing: border-box; }
+        header nav ul li a:link {
+          text-decoration: none; }
+        header nav ul li a:visited {
+          text-decoration: none; }
+        header nav ul li a:hover {
+          color: #2b3226; }
+        header nav ul li a:active {
+          text-decoration: underline; }
+  header #logo {
+    margin-top: -20px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    background: url("../img/DbP-white.svg") no-repeat 0 0;
+    width: 150px;
+    height: 70px; }
+
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative; }
+
+.hProfile {
+  height: 600px;
+  background: url("../img/Nz.jpg") no-repeat right;
+  background-size: cover; }
+
+.case1 {
+  height: 500px;
+  width: 100%;
+  text-align: center; }
+
+.case2 {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(234, 255, 206, 0.46);
+  text-align: center; }
+
+footer {
+  padding: 45px 0 35px 0;
+  text-align: center;
+  position: relative;
+  background: #2b3226; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+@media only screen and (max-width: 1000px) {
+  .wrap {
+    width: 86%; } }
+@media only screen and (max-width: 768px) {
+  .wrap {
+    width: 90%; } }
+@media only screen and (max-width: 480px) {
+  header nav {
+    margin: 20px 0 40px 0; }
+    header nav ul li a {
+      font-size: 12px;
+      margin-left: 5px; }
+  header #logo {
+    margin-top: -5px;
+    width: 90px;
+    height: 40px; } }
+
+/*# sourceMappingURL=main.css.map */
