@@ -65,7 +65,7 @@ header {
 
 .hProfile {
   height: 600px;
-  background: url("../img/Nz.jpg") no-repeat right;
+  background: blue;
   background-size: cover; }
   .hProfile #me {
     padding-top: 150px;
