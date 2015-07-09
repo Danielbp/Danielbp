@@ -878,7 +878,7 @@ function drawHexagon(hexa) {
     ctx.fillStyle = hexa.isHovering ? grd1/*hexa.hovercolor*/ : hexa.blurcolor;
     ctx.lineWidth = 7;
     ctx.strokeStyle = grd;
-    ctx.fillRect(0, 0, 2056.000, 2056.000);
+    //ctx.fillRect(0, 0, 2056.000, 2056.000);
     ctx.stroke();
     ctx.fill();
 
