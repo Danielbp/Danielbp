@@ -864,7 +864,7 @@ function drawHexagon(hexa) {
     grd1.addColorStop(0.000, 'rgba(0, 0, 0, 1.000)');
     grd1.addColorStop(1.000, 'rgba(0, 0, 0, 0.000)');
 
-    //Border
+    //Borders
     /*var grd = ctx.createRadialGradient(200, 50, 10, 238, 50, 230);
     grd.addColorStop(0, 'white');
     grd.addColorStop(1, '#A9DA7E');*/
