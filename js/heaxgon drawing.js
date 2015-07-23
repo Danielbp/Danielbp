@@ -942,7 +942,7 @@ window.onload = function (){
 
     var div2 = document.createElement('DIV');
     div2.style.position = 'absolute';
-    div2.style.left  = 332 + 'px';
+    div2.style.left  = 330 + 'px';
     div2.style.top   = 330 + 'px';
     div2.style.width = '78px';
     div2.style.height = '78px';
