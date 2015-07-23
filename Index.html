@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/uikit.css" />
     <title>Daniel Bernal Perez :: Front-End Developer</title>
 </head>
 <body>
@@ -15,13 +16,104 @@
                 <a id="logo" href="Index.html"></a>
             </h1>
         </div>
-        <canvas id="canvas" width="535" height="750"></canvas>
-        <div id="overlay">
+        <canvas id="canvas" width="535" height="750">
 
+        </canvas>
+
+
+
+        <div id="work" class="uk-modal">
+            <div class="uk-modal-dialog uk-modal-dialog-lightbox">
+                <a href="#" class="uk-modal-close uk-close uk-close-alt"></a>
+                <img src="img/guildwars2-20.jpg" alt="gw-TEST NOT MINE">
+            </div>
+        </div>
+
+
+        <div id="about" class="uk-modal">
+            <div id="about-modal" class="uk-modal-dialog">
+                <a class="uk-modal-close uk-close"></a>
+            </div>
+        </div>
+
+        <div id="contact" class="uk-modal">
+            <div class="uk-modal-dialog" id="contact-modal">
+                <a class="uk-modal-close uk-close"></a>
+
+                <div class="uk-grid" data-uk-grid-margin="">
+
+                    <div class="uk-width-medium-2-4">
+                        <div class="uk-panel uk-panel-header">
+
+                            <h3 class="uk-panel-title">Contact Me</h3>
+
+                            <form class="uk-form uk-form-stacked">
+
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label">Your Name</label>
+                                    <div class="uk-form-controls">
+                                        <input type="text" placeholder="" class="uk-width-1-1">
+                                    </div>
+                                </div>
+
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label">Your Email</label>
+                                    <div class="uk-form-controls">
+                                        <input type="text" placeholder="" class="uk-width-1-1">
+                                    </div>
+                                </div>
+
+                                <div class="uk-form-row">
+                                    <label class="uk-form-label">Your Message</label>
+                                    <div class="uk-form-controls">
+                                        <textarea class="uk-width-1-1" id="form-h-t" cols="100" rows="9"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="uk-form-row">
+                                    <div class="uk-form-controls">
+                                        <button id="contact-sub" class="uk-button uk-button-primary">Submit</button>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="uk-width-medium-1-2">
+                        <div id="contact-panel" class="uk-panel uk-panel-box uk-panel-box-secondary">
+                            <h3 class="uk-panel-title">Contact Details</h3>
+                            <p>
+                                <strong>Daniel Bernal Perez</strong>
+                                <br>Götgatan 78
+                                <br>118 30 Stockholm
+                            </p>
+                            <p>
+                                <a>daniel.bernalp89@gmail.com</a>
+                                <br><a>@Danbp</a><br>
+                                P +46 709 65 98 98
+                            </p>
+                            <h3 class="uk-h4">Follow Me</h3>
+                            <p>
+                                <a href="https://github.com/Danielbp" class="uk-icon-button uk-icon-github"></a>
+                                <a href="https://twitter.com/Danbp" class="uk-icon-button uk-icon-twitter"></a>
+                                <a href="https://www.facebook.com/daniel.b.perez.77" class="uk-icon-button uk-icon-facebook"></a>
+                                <a href="https://se.linkedin.com/pub/daniel-bernal-perez/91/3bb/88" class="uk-icon-button uk-icon-linkedin"></a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </div>
+</div>
+
 <script language="JavaScript" type="text/javascript" src="js/jquery-2.1.4.js"></script>
 <script language="JavaScript" type="text/javascript" src="js/heaxgon%20drawing.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/uikit.js"></script>
 </body>
 </html>

@@ -4,40 +4,59 @@ html {
   background: black; }
 
 body {
-  color: white; }
+  color: black; }
 
-h2 {
-  display: flex;
-  flex-direction: row;
-  margin-top: 30px;
-  margin-left: -210px; }
+#work {
+  margin-top: 150px;
+  height: 500px;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+#about-modal {
+  background: #ffffff;
+  opacity: 0.9;
+  margin-top: 150px;
+  height: 500px;
+  width: 60%;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+#contact-modal {
+  background: #ffffff;
+  opacity: 0.9;
+  margin-top: 150px;
+  height: 500px;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+#contact-panel {
+  background: #eaffce; }
+
+#contact-sub {
+  background: #A9DA7E; }
 
 #canvas {
   background: transparent;
-  display: block; }
+  position: relative;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
 
 #canvas-wrap {
   position: relative;
   /* Make this a positioned parent */
-  display: block; }
-
-#overlay {
-  /*
-  overflow:visible;
-  pointer-events:none;
-  background:none !important;
-  */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: auto;
-  padding: 0;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px; }
+  display: flex; }
 
 .container-box {
   display: flex;
@@ -54,9 +73,16 @@ h2 {
 .box {
   display: flex;
   position: absolute;
-  margin-left: 10px;
+  z-index: 1;
   width: 80px;
-  height: 80px; }
+  height: 80px;
+  margin-left: 16px;
+  margin-top: 30px;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
 
 #logo {
   display: flex;
