@@ -1,0 +1,411 @@
+/*
+ * Globals
+ */
+
+body{
+  font-family: 'PT Sans Caption', sans-serif;
+  overflow: hidden;
+
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.sprite {
+  background: url('../colors.png') no-repeat -167px -197px;
+  width: 1275px;
+  height: 638px;
+  margin-top: -770px;
+  margin-left: 170px;
+  z-index: 1;
+  position: relative;
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  height: 800px;
+
+}
+
+.stapl {
+  margin: 10px;
+}
+
+#o1{
+  margin-top: 95px;
+  margin-left: 50px;
+  z-index: 2;
+  position: absolute;
+  text-align: left;
+}
+
+#o2{
+  margin-top: 95px;
+  margin-left: 50px;
+  z-index: 3;
+  position: absolute;
+  text-align: left;
+}
+
+#o3{
+  margin-top: 95px;
+  margin-left: 50px;
+  z-index: 4;
+  position: absolute;
+  text-align: left;
+}
+
+#o4{
+  margin-top: 95px;
+  margin-left: 50px;
+  z-index: 5;
+  position: absolute;
+  text-align: left;
+}
+
+#o5{
+  margin-top: 95px;
+  margin-left: 900px;
+  z-index: 6;
+  position: absolute;
+  text-align: left;
+}
+
+#toggle {
+  width: 600px;
+  height: 400px;
+  z-index: 7;
+  position: absolute;
+  margin-top: 200px;
+  color: #b9b9b9;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#toggle2 {
+  width: 600px;
+  height: 400px;
+  z-index: 8;
+  position: absolute;
+  margin-top: 200px;
+  color: #b9b9b9;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#toggle3 {
+  width: 600px;
+  height: 400px;
+  z-index: 9;
+  position: absolute;
+  margin-top: 200px;
+  color: #b9b9b9;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#toggle4 {
+  width: 600px;
+  height: 400px;
+  z-index: 10;
+  position: absolute;
+  margin-top: 200px;
+  color: #b9b9b9;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#space{
+  height: 100px;
+  padding: 50px;
+}
+
+#space2{
+  margin-top: 10px;
+  padding: auto;
+
+}
+
+
+
+#one{
+  width: 100px;
+  height: 100px;
+  margin-top: 200px;
+  background-color: ghostwhite ;
+}
+
+#two{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 200px;
+  background-color: ghostwhite ;
+}
+
+#three{
+  width: 100px;
+  height: 100px;
+  margin-top: 200px;
+  background-color: ghostwhite ;
+}
+
+#four{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 210px;
+  background-color: ghostwhite ;
+}
+
+#five{
+  width: 100px;
+  height: 100px;
+  margin-top: 200px;
+  background-color: ghostwhite ;
+}
+
+#six{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 200px;
+  background-color: ghostwhite ;
+}
+
+#seven{
+  width: 100px;
+  height: 100px;
+  margin-top: 200px;
+  background-color: ghostwhite ;
+}
+
+#eight{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 200px;
+  background-color: ghostwhite ;
+}
+
+#nine{
+  width: 100px;
+  height: 100px;
+  margin-top: 200px;
+  background-color: ghostwhite ;
+}
+
+#ten{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 200px;
+  background-color: ghostwhite ;
+}
+
+#eleven{
+  width: 100px;
+  height: 100px;
+  margin-top: 200px;
+  background-color: ghostwhite ;
+}
+
+#twelve{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 200px;
+  background-color: ghostwhite ;
+}
+
+button {
+  background: transparent;
+  border: transparent;
+}
+
+button:focus {
+  outline:0;
+}
+
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.sButton {
+  width: 50px;
+  height: 50px;
+  position: relative;
+
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #333333 0%, #282828 100%, #333333 5%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, #333333, #333333);
+  background-image: radial-gradient(45px 45px 45deg, circle cover, #333333 0%, #282828 100%, #333333 5%);
+
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+}
+
+.sButton:hover {
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #f8f8ff 0%, #282828 100%, #ffffff 95%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, #f8f8ff, #282828);
+  background-image: radial-gradient(45px 45px 45deg, circle cover, #f8f8ff 0%, #282828 100%, #ffffff 95%);
+}
+
+.sButton:hover {
+  border-left-color: #bcefb4;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
