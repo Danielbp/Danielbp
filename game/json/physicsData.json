@@ -1,0 +1,41 @@
+{ 
+    
+    "crystal": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   4, 15  ,  2, 9  ,  3, 2  ,  6, 0  ,  13, 6  ,  14, 9  ,  12, 15  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   13, 6  ,  6, 0  ,  10, 0  ,  13, 2  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   2, 9  ,  3, 2  ,  10, 0  ,  12, 15  ,  10, 16  ,  4, 15  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   14, 6  ,  12, 15  ,  10, 0  ,  13, 2  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   10, 0  ,  3, 2  ,  6, 0  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   1.5, 8  ,  2.5, 2  ,  6, -0.5  ,  9, -0.5  ,  12.5, 2  ,  12.5, 3  ,  9, 15.5  ,  4, 14.5  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   11.5, 14  ,  9, 15.5  ,  12.5, 3  ,  13.5, 8  ]
+        }
+    ]
+}
